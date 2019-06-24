@@ -39,7 +39,7 @@ public class Solution1 {
                 tracker.put(target - nums[i], i);
             }
         }
-        return null;
+        throw new IllegalArgumentException("No two sum solution");
     }
 
     public static void main(String[] args) {
